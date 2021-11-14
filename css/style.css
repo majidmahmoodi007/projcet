@@ -52,29 +52,7 @@
         text-align: center;
         color: #ffffffff;
         padding: 130px;
-    }
-    /* .baneer-content h1 { */
-        /* color: #ffffffff; */
-        /* margin: 145px 0px 0px 3px; */
-        /* font-size: 80px ; */
-/*         */
-/*        */
-    /* } */
-    /* .baneer-content p {     */
-        /* color: #ffffffff ; */
-        /* padding: 274px 0px 0px 28px ; */
-        /* font-size: 32px; */
-    /* } */
-    /* .baneer-content button { */
-        /* background-color: skyblue;  */
-        /* border-radius:40px; */
-        /* font-size: 40px;  */
-        /* padding: 20px; */
-        /* margin: 30px 0px 0px 266px; */
-
-    /* } */
-
-    /*  */
+   }
     .btn {
         text-align: center;
         border-radius: 30px;
@@ -266,7 +244,7 @@ textarea {
     height: 200px;
     width: 50%;
     margin-top: 20px;
-    margin-left: 233px;
+    margin-left: 311px;
     display: block;
 }
 .footer {

@@ -28,9 +28,6 @@
      if(inputName.value && inputEmail.value && inputDescription.value){
          alert('everything is good');
      }
-     if(inputDescription.value || inputName){
-         alert('descrtiption or name')
-     }
      let data = {
          inputName :inputName.value,
          inputEmail :inputEmail.value,
@@ -51,8 +48,8 @@
               console.log('you click the home')
       
      }
-     localStorage.setItem('courses','js'); 
-     localStorage.removeItem('courses');
+     
+     
   
   
   
