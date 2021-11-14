@@ -1,7 +1,93 @@
 * {
     margin: 0;
 }
+/* font,color default body */
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #444;
 }
+/* color button */
+.btn {
+    text-align: center;
+    border-radius: 30px;
+    font-size: 1.5vw;
+    border: 0; 
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #ffffffff;
+}
+
+.btn-gray {
+    background-color: #fff;
+    color: #444!important;
+}
+.btn-dark {
+    background-color:#383b43 ;
+    color: #fff !important;
+}
+.btn-big {
+    font-size: 2.3vw;
+}
+/* background header */
+.header {
+    background-color: #383b43;
+   
+}
+/* to menu color */
+.top-menu {
+    color: #fff;
+}
+/* a color */
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+/* header li */
+.header li {
+   display: inline-block;
+   padding: 20px;
+   font-size: 1vw;
+  
+}
+.nav {
+    display: inline;
+    text-align: right;
+}
+.header h1 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* cintent h1 */
+.content h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.content-footer {
+    background-color: skyblue;
+    margin-top: 20px;
+    text-align: center;
+}
+input[type="text"],
+input[type="email"]{
+    border: none;
+    border-radius: 7px;
+    padding: 10px 12px;
+    width: 23%;
+    margin-top: 30px;
+}
+.input-description {
+    width: 49%;
+    margin-top: 20px;
+    border: none;
+    margin-left: 337px;
+    border-radius: 9px;
+    display: block;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+.content-footer button {
+    margin-bottom: 30px;
+}
+
