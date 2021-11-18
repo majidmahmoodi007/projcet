@@ -26,8 +26,8 @@ function newNote (e) {
 
 
 
-    console.log(noteList);
-  
+    
+    addNoteLocalstoreage(note);
 }
 //function remove list
 function removeNote (e) {
@@ -39,5 +39,31 @@ function removeNote (e) {
 
     
 }
+// add note in local storage
+function addNoteLocalstoreage(note) {
+    //get notes from local storage
+   const notes=getNoteFromLocalStorage() 
+//add new notes to the  notes array
+   notes.push(note)
+//add new notes to the local storage
+   localStorage.setItem('notes', JSON.stringify(notes))
+   console.log(notes);
+}
+// grt note form local storage
+function getNoteFromLocalStorage() {
+    let notes;
+    let getfromls=localStorage.getItem('notes')
+//if not exist  return {}
+    if (getfromls === null) {
+        notes = []
+        
+    }
+//if  exist convert to the array
+    else {
+        notes=JSON.parse(getfromls)
+    }
+    return notes
 
+    
+}
 
